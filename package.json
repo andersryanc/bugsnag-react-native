@@ -33,18 +33,6 @@
   "peerDependencies": {
     "react-native": ">=0.40"
   },
-  "rnpm": {
-    "ios": {
-      "project": "cocoa/BugsnagReactNative.xcodeproj",
-      "sharedLibraries": [
-        "libz"
-      ]
-    },
-    "android": {
-      "packageInstance": "BugsnagReactNative.getPackage()",
-      "packageImportPath": "import com.bugsnag.BugsnagReactNative;"
-    }
-  },
   "standard": {
     "parser": "babel-eslint",
     "ignore": [
